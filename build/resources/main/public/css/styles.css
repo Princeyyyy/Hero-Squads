@@ -1,0 +1,63 @@
+.landing-pg {
+background-image: url('../image/heroes.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 93vh;
+    font-family: 'Alata', sans-serif;
+     color: white;
+}
+
+.squad-pg {
+background-image: url('../image/thor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 93vh;
+    font-family: 'Alata', sans-serif;
+     color: white;
+}
+
+.hero-pg {
+background-image: url('../image/blackpanther.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 93vh;
+    font-family: 'Alata', sans-serif;
+     color: white;
+}
+
+
+/*-----------------------------
+              FORM
+-------------------------------*/
+.hero-form {
+background-image: url('../image/superman2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 93vh;
+    font-family: 'Alata', sans-serif;
+     color: white;
+}
+
+.squad-form {
+background-image: url('../image/team.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 93vh;
+    font-family: 'Alata', sans-serif;
+     color: white;
+}
+
+.jumbotron {
+            background: none;
+}
+
+.heading {
+text-align: center;
+font-size: large;
+}
+
+.row{
+text-align: center;
+}
+
+
