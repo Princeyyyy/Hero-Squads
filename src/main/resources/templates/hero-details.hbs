@@ -1,0 +1,15 @@
+{{#partial "content"}}
+
+    <div class="hero-pg">
+        {{#if hero}}
+            <p>Hero Name: {{hero.heroName}}</p>
+            <p>Hero Power: {{hero.heroPower}}</p>
+            <p>Hero Weakness: {{hero.heroWeakness}}</p>
+            <p>Hero Age: {{hero.age}}</p>
+            <a href="/deletehero/{{hero.id}}" class="btn btn-danger">Delete</a>
+        {{/if}}
+    </div>
+
+{{/partial}}
+
+{{> layout.hbs}}

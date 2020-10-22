@@ -1,0 +1,27 @@
+{{#partial "content"}}
+
+    <div class="squad-pg">
+        <div class="container row">
+            <div class="col-md-4">
+                {{#if squad}}
+                    <p>Squad Name: {{squad.squadName}}</p>
+                    <p>Squad Mission: {{squad.squadMission}}</p>
+                    <p>Squad Size: {{squad.squadSize}}</p>
+                    <a href="/deletesquad/{{squad.id}}" class="btn btn-danger">Delete</a>
+                {{/if}}
+            </div>
+            <div class="col-md-8">
+                <p>Heroes In The Squad:</p>
+                {{#if heroes}}
+                    {{#each heroes}}
+                        <p>Hero Name:{{heroName}}</p>
+                        <a href="/heroes/{{id}}" class="btn btn-info">Details</a>
+                    {{/each}}
+                {{/if}}
+            </div>
+        </div>
+    </div>
+
+{{/partial}}
+
+{{> layout.hbs}}
