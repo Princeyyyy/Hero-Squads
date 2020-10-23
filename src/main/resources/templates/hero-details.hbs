@@ -1,13 +1,24 @@
 {{#partial "content"}}
 
     <div class="hero-pg">
-        {{#if hero}}
-            <p>Hero Name: {{hero.heroName}}</p>
-            <p>Hero Power: {{hero.heroPower}}</p>
-            <p>Hero Weakness: {{hero.heroWeakness}}</p>
-            <p>Hero Age: {{hero.age}}</p>
-            <a href="/deletehero/{{hero.id}}" class="btn btn-danger">Delete</a>
-        {{/if}}
+        <div class="text-center">
+            <h2><u>{{hero.heroName}}</u></h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Age:</h5>
+                    <p><em>{{hero.age}}</em></p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Strength:</h5>
+                    <p><em>{{hero.heroPower}}</em></p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Weakness:</h5>
+                    <p><em>{{hero.heroWeakness}}</em></p>
+                </div>
+            </div>
+            <a href="/deletehero/{{hero.id}}" class="btn btn-outline-danger">Delete Permanently</a>
+        </div>
     </div>
 
 {{/partial}}
