@@ -8,8 +8,8 @@
                 </div>
                 {{#if squads}}
                     {{#each squads}}
-                        <p>{{squadName}}</p>
-                        <a href="/squads/{{id}}" class="btn btn-info">Details</a>
+                        <p><u>{{squadName}}</u></p>
+                        <a href="/squads/{{id}}" class="btn btn-outline-info">Details</a>
                     {{/each}}
                 {{/if}}
             </div>
@@ -19,8 +19,8 @@
                 </div>
                 {{#if heroes}}
                     {{#each heroes}}
-                        <p>{{heroName}}</p>
-                        <a href="/heroes/{{id}}" class="btn btn-info">Details</a>
+                        <p><u>{{heroName}}</u></p>
+                        <a href="/heroes/{{id}}" class="btn btn-outline-info">Details</a>
                     {{/each}}
                 {{/if}}
             </div>

@@ -7,15 +7,15 @@
                     <p>Squad Name: {{squad.squadName}}</p>
                     <p>Squad Mission: {{squad.squadMission}}</p>
                     <p>Squad Size: {{squad.squadSize}}</p>
-                    <a href="/deletesquad/{{squad.id}}" class="btn btn-danger">Delete</a>
+                    <a href="/deletesquad/{{squad.id}}" class="btn btn-outline-danger">Delete</a>
                 {{/if}}
             </div>
             <div class="col-md-8">
                 <p>Heroes In The Squad:</p>
                 {{#if heroes}}
                     {{#each heroes}}
-                        <p>Hero Name:{{heroName}}</p>
-                        <a href="/heroes/{{id}}" class="btn btn-info">Details</a>
+                        <p>Name: {{heroName}}</p>
+                        <a href="/heroes/{{id}}" class="btn btn-outline-info">Details</a>
                     {{/each}}
                 {{/if}}
             </div>

@@ -10,8 +10,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/templates/hero-details.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/hero-details.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/hero-form.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/hero-form.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/squad-details.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/squad-details.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hero-details.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hero-details.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hero-form.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hero-form.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squad-details.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/squad-details.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squad-form.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/squad-form.hbs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
