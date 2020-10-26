@@ -18,9 +18,9 @@ public class App {
 
     public static void main(String[] args) {
 
-        String connectionString = "jdbc:h2:~/Heros-squad.db;INIT=RUNSCRIPT from 'classpath:database/tables.sql'";
+        String connectionString = "jdbc:postgresql://localhost:5432/herosquads";
         Connection con;
-        Sql2o sql2o = new Sql2o(connectionString, "", "");
+        Sql2o sql2o = new Sql2o(connectionString, "prince", "prince12");
         Sql2oSquadDAO squadDAO = new Sql2oSquadDAO(sql2o);
         Sql2oHeroDAO heroDAO = new Sql2oHeroDAO(sql2o);
         Map<String, Object> model = new HashMap<>();
