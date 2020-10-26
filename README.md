@@ -5,6 +5,11 @@ This is a java app that enables a user create a hero and a squad and also the us
 
 * **Prince Mumo** 
 
+##Deployed Website
+Below is the link to the deployed website:
+
+https://hero-squads2020.herokuapp.com/
+
 
 
 ## Getting Started
