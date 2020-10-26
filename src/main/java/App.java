@@ -25,9 +25,11 @@ public class App {
 
     public static void main(String[] args) {
 
-        String connectionString = "jdbc:postgresql://localhost:5432/herosquads";
-        Connection con;
-        Sql2o sql2o = new Sql2o(connectionString, "prince", "prince12");
+//        String connectionString = "jdbc:postgresql://localhost:5432/herosquads";
+//        Connection con;
+//        Sql2o sql2o = new Sql2o(connectionString, "prince", "prince12");
+        String connectionString = "jdbc:postgresql://ec2-18-210-90-1.compute-1.amazonaws.com"; //!
+        Sql2o sql2o = new Sql2o(connectionString, "iyadcicvgirhnq", "56ce4aacb83ad71c2cdc65470a8edec20ef4243d477758c099a7fd7cb5146270"); //!
         Sql2oSquadDAO squadDAO = new Sql2oSquadDAO(sql2o);
         Sql2oHeroDAO heroDAO = new Sql2oHeroDAO(sql2o);
         Map<String, Object> model = new HashMap<>();
