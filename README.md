@@ -10,6 +10,11 @@ Below is the link to the deployed website:
 
 https://hero-squads2020.herokuapp.com/
 
+##Figma Design
+Below is the link to the figma design for the website
+
+https://www.figma.com/file/2IXCxhiR6cShWrEyIfY4C9/Hero-Squad?node-id=5%3A0
+
 
 
 ## Getting Started
