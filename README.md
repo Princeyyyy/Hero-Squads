@@ -5,12 +5,14 @@ This is a java app that enables a user create a hero and a squad and also the us
 
 * **Prince Mumo** 
 
-##Deployed Website
+**Deployed Website**
+
 Below is the link to the deployed website:
 
 https://hero-squads2020.herokuapp.com/
 
-##Figma Design
+**Figma Design**
+
 Below is the link to the figma design for the website
 
 https://www.figma.com/file/2IXCxhiR6cShWrEyIfY4C9/Hero-Squad?node-id=5%3A0
